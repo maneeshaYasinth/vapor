@@ -39,7 +39,7 @@
 ## installation
 
 ```bash
-git clone https://github.com/yourusername/vapor.git
+git clone https://github.com/maneeshaYasinth/vapor.git
 cd vapor
 pip install -e .
 ```
