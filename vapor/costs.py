@@ -52,7 +52,6 @@ def get_forecast(profile=None):
     today = datetime.today()
     start = today.strftime('%Y-%m-%d')
 
-    # last day of current month
     if today.month == 12:
         end = today.replace(day=31).strftime('%Y-%m-%d')
     else:
